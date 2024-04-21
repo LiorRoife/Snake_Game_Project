@@ -1,4 +1,4 @@
-// SnakeProjectByLiorRoife.c
+Snake Project By Lior Roife (C)
 
 //***********************************************************  Snake Project Rules:  **********************************************************//
 // This project is a "Snake Game" project.
