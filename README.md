@@ -1,13 +1,17 @@
-Snake Project By Lior Roife (C)
+Snake Project By Lior Roife (using C language)
 
-//***********************************************************  Snake Project Rules:  **********************************************************//
-This project is a "Snake Game" project.
+###   Snake Game Rules: 
+This project is implementation of Classic "Snake" game.
+
 The snake grows up by one cell and increases it's speed every 5 steps.
+
 If the snake hits the board lines/hits itself the game is over (the player loses).
 Have Fun :)
-//*********************************************************************************************************************************************//
-//**************************************************************  Functions:  *****************************************************************//
-void PrintBoard();	                                                // This function prints the game board.
+
+
+###  Functions:
+  
+void PrintBoard();	                                            // This function prints the game board.
 
 SNAKE* CreateCell(SNAKE* head, int x, int y);                       // This function gets as input a pointer to the snake's head , cordintaes (x,y).
 								    // The function creates a new "Cell" and Initializes it's Cordinates to x,y.
